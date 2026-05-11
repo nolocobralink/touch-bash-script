@@ -32,3 +32,18 @@ cat << EOF > $filename && chmod +x $filename
 
 EOF
 
+# Added to immediately set the cursor position on vim 
+# on line 3 column 1
+which vim 2>&1 >/dev/null
+found_vim=$?
+
+if [[ $found_vim -eq 0 ]];
+then
+	vim +3 -c "q" $filename
+fi
+
+# Tried to do the same with nano, but it seems it doesn't
+# remember the last position.
+# You can add your favorite terminal editor down here if it can
+# remember the last registered position.
+
