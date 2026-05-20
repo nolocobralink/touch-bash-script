@@ -4,7 +4,7 @@ This is a small bash script to create a bash script with a given name, initializ
 
 # Why bother making it?
 
-While watching the 7+ hours bash course from YSAP (You Suck At Programming a.k.a. Dave Eddy a.k.a. @bahamas10), I was getting a little bit tired of seeing him create a script, add the shebang, save, exit and make it executable, so I decided to create a script that creates, initializes and set the executable bits to a bash script to have it ready. Matter of fact, I'm still watching the course on YT from my phone as I'm typing this.
+While watching the 7+ hours bash course from YSAP (You Suck At Programming a.k.a. Dave Eddy a.k.a. [@bahamas10](https://github.com/bahamas10)), I was getting a little bit tired of seeing him create a script, add the shebang, save, exit and make it executable, so I decided to create a script that creates, initializes and set the executable bits to a bash script to have it ready. Matter of fact, I'm still watching the course on YT from my phone as I'm typing this.
 
 # Are you expecting everyone to use it?
 
